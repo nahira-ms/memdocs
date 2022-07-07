@@ -47,7 +47,7 @@ The following table captures the key differences between the two available share
 |-|-|-|
 | Supported   device types | iPad | iPhone, iPod touch, iPad |
 | Minimum   device requirements | iPadOS 13.4 or later with at   least 32 GB of storage. | iOS 13 or later, iPadOS 13 or   later |
-| AAD   federation with Apple Business or School Manager | Required. This enables users to   sign in using their AAD username and password. | Not required |
+| AAD   federation with Apple Business or School Manager | Recommendation. This enables users to   sign in using their AAD username and password. | Not required |
 | Managed Apple ID | AAD federation automatically creates Managed Apple ID when user signs in on Shared iPad for the first time.<p>If AAD   federation is not set up, Managed Apple IDs can be created manually in Apple   Business or School Manager and shared with users for signing in. | Not required   |
 | Device   provisioning | Shared iPad can be enabled on   iPads enrolled using Automated Device Enrollment without user affinity. | Shared   Device Mode can be configured on devices enrolling using Automated Device   Enrollment without user affinity. For more information, see [Use Intune to enable shared device mode & SSO extension](/azure/active-directory/develop/msal-ios-shared-devices#use-intune-to-enable-shared-device-mode--sso-extension). |
 | Temporary   session without signing in | Temporary   sessions that do not require a Managed Apple ID or password are allowed by   default.  Temporary sessions can be allowed or blocked by Intune policy. For more information, see [Shared iPad](../configuration/device-restrictions-ios.md#shared-ipad). | Not applicable |
