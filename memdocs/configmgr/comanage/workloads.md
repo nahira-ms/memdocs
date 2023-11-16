@@ -143,7 +143,7 @@ For more information on the Intune feature, see [Add Microsoft 365 apps to Windo
 > [!TIP]
 > This feature may appear in the list of features as **Mobile apps for co-managed devices**.<!-- 5849669 -->
 
-Use Intune to manage client apps and PowerShell scripts on co-managed Windows 10 or later devices. After you transition this workload, any available apps deployed from Intune are available in the Company Portal. Apps that you deploy from Configuration Manager are available in Software Center.
+Use Intune to manage client apps and PowerShell scripts on co-managed Windows 10 or later devices. After you transition this workload, any available apps deployed from Intune are available in the Company Portal. Apps that you deploy from Configuration Manager are available.
 
 For more information on the Intune feature, see [What is Microsoft Intune app management?](../../intune/apps/app-management.md)
 
